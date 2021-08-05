@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA4F4F426BC2BEB00EC4917 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F4F326BC2BEB00EC4917 /* DashBoardViewController.swift */; };
+		8DA4F4FA26BC33A100EC4917 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F4F926BC33A100EC4917 /* ForgotPasswordViewModel.swift */; };
+		8DA4F4FC26BC33E900EC4917 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F4FB26BC33E900EC4917 /* ForgotPasswordViewController.swift */; };
+		8DA4F4FE26BC39EA00EC4917 /* ForgotPasswordCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F4FD26BC39EA00EC4917 /* ForgotPasswordCodeViewController.swift */; };
+		8DA4F50026BC3DA400EC4917 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F4FF26BC3DA400EC4917 /* TextFieldExtension.swift */; };
+		8DA4F50226BC3E5200EC4917 /* StackExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F50126BC3E5200EC4917 /* StackExtension.swift */; };
+		8DA4F50426BC52E600EC4917 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F50326BC52E600EC4917 /* NewPasswordViewController.swift */; };
+		8DA4F50826BC569600EC4917 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F50726BC569600EC4917 /* UIViewControllerExtension.swift */; };
+		8DD804AD26B9839B00496617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804AC26B9839B00496617 /* AppDelegate.swift */; };
+		8DD804AF26B9839B00496617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804AE26B9839B00496617 /* SceneDelegate.swift */; };
+		8DD804B626B983A100496617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD804B526B983A100496617 /* Assets.xcassets */; };
+		8DD804B926B983A100496617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD804B726B983A100496617 /* LaunchScreen.storyboard */; };
+		8DD804C226B985B500496617 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804C126B985B500496617 /* LoginViewController.swift */; };
+		8DD804CA26B9872B00496617 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804C926B9872B00496617 /* LoginViewModel.swift */; };
+		8DD804CC26B98A7000496617 /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD804CB26B98A7000496617 /* Login.xcassets */; };
+		8DD804CF26B9C6FE00496617 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804CE26B9C6FE00496617 /* AlertExtension.swift */; };
+		8DD804D126B9C79F00496617 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804D026B9C79F00496617 /* Constants.swift */; };
+		8DD804D326B9C80700496617 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD804D226B9C80700496617 /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DA4F4F326BC2BEB00EC4917 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		8DA4F4F926BC33A100EC4917 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		8DA4F4FB26BC33E900EC4917 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8DA4F4FD26BC39EA00EC4917 /* ForgotPasswordCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordCodeViewController.swift; sourceTree = "<group>"; };
+		8DA4F4FF26BC3DA400EC4917 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		8DA4F50126BC3E5200EC4917 /* StackExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExtension.swift; sourceTree = "<group>"; };
+		8DA4F50326BC52E600EC4917 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		8DA4F50726BC569600EC4917 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		8DD804A926B9839B00496617 /* LuxPm-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LuxPm-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD804AC26B9839B00496617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DD804AE26B9839B00496617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DD804B526B983A100496617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DD804B826B983A100496617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DD804BA26B983A100496617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD804C126B985B500496617 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8DD804C926B9872B00496617 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8DD804CB26B98A7000496617 /* Login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Login.xcassets; sourceTree = "<group>"; };
+		8DD804CE26B9C6FE00496617 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		8DD804D026B9C79F00496617 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DD804D226B9C80700496617 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD804A626B9839A00496617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346220044EBE6F0112A94667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DA4F4F226BC2BCF00EC4917 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4F4F326BC2BEB00EC4917 /* DashBoardViewController.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		8DA4F4F626BC337500EC4917 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4F4F726BC338600EC4917 /* ViewModel */,
+				8DA4F4F826BC338B00EC4917 /* Controllers */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		8DA4F4F726BC338600EC4917 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4F4F926BC33A100EC4917 /* ForgotPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DA4F4F826BC338B00EC4917 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4F4FB26BC33E900EC4917 /* ForgotPasswordViewController.swift */,
+				8DA4F4FD26BC39EA00EC4917 /* ForgotPasswordCodeViewController.swift */,
+				8DA4F50326BC52E600EC4917 /* NewPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8DD804A026B9839A00496617 = {
+			isa = PBXGroup;
+			children = (
+				8DD804AB26B9839B00496617 /* LuxPm-Demo */,
+				8DD804AA26B9839B00496617 /* Products */,
+				346220044EBE6F0112A94667 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD804AA26B9839B00496617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD804A926B9839B00496617 /* LuxPm-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD804AB26B9839B00496617 /* LuxPm-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8DD804AC26B9839B00496617 /* AppDelegate.swift */,
+				8DD804AE26B9839B00496617 /* SceneDelegate.swift */,
+				8DD804CD26B9C6E900496617 /* Utilities */,
+				8DD804C026B9859000496617 /* Login */,
+				8DA4F4F626BC337500EC4917 /* ForgotPassword */,
+				8DA4F4F226BC2BCF00EC4917 /* DashBoard */,
+				8DD804B526B983A100496617 /* Assets.xcassets */,
+				8DD804B726B983A100496617 /* LaunchScreen.storyboard */,
+				8DD804BA26B983A100496617 /* Info.plist */,
+			);
+			path = "LuxPm-Demo";
+			sourceTree = "<group>";
+		};
+		8DD804C026B9859000496617 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8DD804C626B9870A00496617 /* ViewModel */,
+				8DD804C826B9871600496617 /* Controllers */,
+				8DD804CB26B98A7000496617 /* Login.xcassets */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8DD804C626B9870A00496617 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DD804C926B9872B00496617 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DD804C826B9871600496617 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DD804C126B985B500496617 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8DD804CD26B9C6E900496617 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8DD804CE26B9C6FE00496617 /* AlertExtension.swift */,
+				8DD804D026B9C79F00496617 /* Constants.swift */,
+				8DD804D226B9C80700496617 /* StringExtension.swift */,
+				8DA4F4FF26BC3DA400EC4917 /* TextFieldExtension.swift */,
+				8DA4F50126BC3E5200EC4917 /* StackExtension.swift */,
+				8DA4F50726BC569600EC4917 /* UIViewControllerExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD804A826B9839A00496617 /* LuxPm-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD804BD26B983A100496617 /* Build configuration list for PBXNativeTarget "LuxPm-Demo" */;
+			buildPhases = (
+				8DD804A526B9839A00496617 /* Sources */,
+				8DD804A626B9839A00496617 /* Frameworks */,
+				8DD804A726B9839A00496617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LuxPm-Demo";
+			productName = "LuxPm-Demo";
+			productReference = 8DD804A926B9839B00496617 /* LuxPm-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD804A126B9839A00496617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8DD804A826B9839A00496617 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DD804A426B9839A00496617 /* Build configuration list for PBXProject "LuxPm-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DD804A026B9839A00496617;
+			productRefGroup = 8DD804AA26B9839B00496617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD804A826B9839A00496617 /* LuxPm-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DD804A726B9839A00496617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD804B926B983A100496617 /* LaunchScreen.storyboard in Resources */,
+				8DD804CC26B98A7000496617 /* Login.xcassets in Resources */,
+				8DD804B626B983A100496617 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD804A526B9839A00496617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD804CF26B9C6FE00496617 /* AlertExtension.swift in Sources */,
+				8DA4F50226BC3E5200EC4917 /* StackExtension.swift in Sources */,
+				8DA4F50826BC569600EC4917 /* UIViewControllerExtension.swift in Sources */,
+				8DA4F50426BC52E600EC4917 /* NewPasswordViewController.swift in Sources */,
+				8DD804D326B9C80700496617 /* StringExtension.swift in Sources */,
+				8DD804C226B985B500496617 /* LoginViewController.swift in Sources */,
+				8DD804CA26B9872B00496617 /* LoginViewModel.swift in Sources */,
+				8DD804AD26B9839B00496617 /* AppDelegate.swift in Sources */,
+				8DD804AF26B9839B00496617 /* SceneDelegate.swift in Sources */,
+				8DA4F4FE26BC39EA00EC4917 /* ForgotPasswordCodeViewController.swift in Sources */,
+				8DA4F4FC26BC33E900EC4917 /* ForgotPasswordViewController.swift in Sources */,
+				8DA4F4FA26BC33A100EC4917 /* ForgotPasswordViewModel.swift in Sources */,
+				8DA4F50026BC3DA400EC4917 /* TextFieldExtension.swift in Sources */,
+				8DD804D126B9C79F00496617 /* Constants.swift in Sources */,
+				8DA4F4F426BC2BEB00EC4917 /* DashBoardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DD804B726B983A100496617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD804B826B983A100496617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DD804BB26B983A100496617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DD804BC26B983A100496617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD804BE26B983A100496617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXP5B2S6V8;
+				INFOPLIST_FILE = "LuxPm-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahuja.LuxPm-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DD804BF26B983A100496617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXP5B2S6V8;
+				INFOPLIST_FILE = "LuxPm-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahuja.LuxPm-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DD804A426B9839A00496617 /* Build configuration list for PBXProject "LuxPm-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD804BB26B983A100496617 /* Debug */,
+				8DD804BC26B983A100496617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD804BD26B983A100496617 /* Build configuration list for PBXNativeTarget "LuxPm-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD804BE26B983A100496617 /* Debug */,
+				8DD804BF26B983A100496617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD804A126B9839A00496617 /* Project object */;
+}
